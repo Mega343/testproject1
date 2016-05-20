@@ -57,10 +57,6 @@ public class DBWorker {
         }
     }
 
-    public static void main(String[] args) {
-        DBWorker worker = new DBWorker();
-        worker.addFormulaToDatabase("Ger","grg");
-    }
 
 
     public Connection getConnection() {
